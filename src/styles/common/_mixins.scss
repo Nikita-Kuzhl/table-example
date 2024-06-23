@@ -1,0 +1,38 @@
+@mixin respond-to($name, $bp: $breakpoints) {
+  $max: breakpoint-max($name, $bp);
+
+  @if $max {
+    @media (max-width: $max) {
+      @content;
+    }
+  } @else {
+    @content;
+  }
+}
+
+@mixin hover {
+  @media (hover), (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    &:hover {
+      @content;
+    }
+  }
+}
+
+
+
+@mixin text($name){
+  @if $name == th {
+    font-weight: 400;
+    font-size: 2rem;
+  }
+
+  @if $name == td {
+    font-weight: 400;
+    font-size: 1.4rem;
+  }
+
+  @if $name == input {
+    font-weight: 400;
+    font-size: 1.6rem;
+  }
+}

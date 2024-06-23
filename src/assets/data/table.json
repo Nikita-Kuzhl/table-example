@@ -1,0 +1,32 @@
+{
+  "headColumns": [
+    {
+      "label": "Аватар",
+      "value": ""
+    },
+    {
+      "label": "ФИО",
+      "value": "fio"
+    },
+    {
+      "label": "Пол",
+      "value": "gender"
+    },
+    {
+      "label": "Страна",
+      "value": "location"
+    },
+    {
+      "label": "Дата рождения",
+      "value": "date"
+    },
+    {
+      "label": "Email",
+      "value": "email"
+    },
+    {
+      "label": "Телефон",
+      "value": "phone"
+    }
+  ]
+}

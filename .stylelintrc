@@ -1,0 +1,20 @@
+{
+  "overrides": [
+    {
+      "files": [
+        "**/*.vue"
+      ],
+      "customSyntax": "postcss-html"
+    }
+  ],
+  "extends": [
+    "stylelint-config-recommended",
+    "stylelint-config-standard",
+    "stylelint-config-recommended-vue",
+    "stylelint-config-standard-scss",
+    "stylelint-config-recommended-vue/scss"
+  ],
+  "rules": {
+    "selector-class-pattern": null
+  }
+}

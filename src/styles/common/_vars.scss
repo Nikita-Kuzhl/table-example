@@ -1,0 +1,19 @@
+$base-font-size: 1.6rem;
+$body-color: white;
+$base-font: "Roboto", sans-serif;
+$breakpoints: (
+        mobile: 0,
+        tablet-sm: 768px,
+        s_tablet: 920px,
+        tablet: 1024px,
+        laptop: 1280px,
+        desktop: 1440px,
+        ultra: 1921px,
+);
+$default-transition: .3s ease-in-out;
+
+/* Colors */
+$white: white;
+$black: black;
+$gray: gray;
+$red: #dc0032;

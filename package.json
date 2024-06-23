@@ -1,0 +1,42 @@
+{
+  "name": "table-app",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon -w src/api -x tsx src/api/server.ts",
+    "start": "NODE_ENV=production tsx src/api/server.ts",
+    "build": "vite build",
+    "eslint": "eslint --ext .vue --ext .ts . --fix",
+    "stylelint": "stylelint \"**/*.{scss,vue}\" --fix"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "tsx": "^4.15.7",
+    "vite-express": "^0.17.0",
+    "vue": "^3.4.29"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.6",
+    "@typescript-eslint/eslint-plugin": "^7.13.1",
+    "@typescript-eslint/parser": "^7.13.1",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@vue/eslint-config-typescript": "^13.0.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.26.0",
+    "nodemon": "^3.1.4",
+    "postcss-html": "^1.7.0",
+    "sass": "^1.77.6",
+    "stylelint": "^16.6.1",
+    "stylelint-config-recommended": "^14.0.1",
+    "stylelint-config-recommended-scss": "^14.0.0",
+    "stylelint-config-recommended-vue": "^1.5.0",
+    "stylelint-config-standard": "^36.0.1",
+    "stylelint-config-standard-scss": "^13.1.0",
+    "typescript": "^5.5.2",
+    "vite": "^5.3.0",
+    "vite-svg-loader": "^5.1.0",
+    "vue-tsc": "^2.0.21"
+  }
+}
